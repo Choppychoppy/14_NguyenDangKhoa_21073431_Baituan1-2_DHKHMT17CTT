@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai16 </title>
+    <style>
+.container{
+        padding: 10px;
+        width: 45%;
+        margin: 100px;
+        box-shadow:5px 5px 5px 5px #888888;
+        background-color: #f2f2f2 ;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="post" method="post">
+        <h1>Travel reservation form</h1>
+        <h3>* denotes mandotory</h3>
+        <table>
+            <tr>
+                <td>
+                    <label for="Name">Full name*:</label><br>
+                    <input placeholder="FirstName LastName" type="text" name="Name" id="Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="txtEmail">Email address*:</label><br>
+                    <input placeholder="EMAIL_ADDRESS" type="email" name="txtEmail" id="txtEmail">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="select">Select Tour Package*:</label><br>
+                    <select name="select" id="select">
+                        <option value="12">Goa</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="date">Arrival date*:</label><br>
+                    <input type="date" name="" id="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="tel">Number of persons*:</label><br>
+                    <input placeholder="UNKNOWN_TYPE" type="tel" name="tel" id="tel">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="option">What would you want to avail?*:</label><br>
+                    <label for="checkbox">Boarding
+                        <input type="checkbox" name="checkbox" id="checkbox">
+                    </label><br>
+                    <label for="checkbox">Fooding
+                        <input type="checkbox" name="checkbox" id="checkbox">
+                    </label><br>
+                    <label for="checkbox">Sight seeing
+                        <input type="checkbox" name="checkbox" id="checkbox">
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="code">Discout Coupon code:</label><br>
+                    <input placeholder="UNKNOWN_TYPE" type="text" name="code" id="code">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="txt">Terms and conditions*</label><br>
+                    <label for="pick">
+                        <input type="radio" name="pick" id="pick">I agree
+                        <input type="radio" name="pick" id="pick">I disagree
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="submit">
+                    <input type="submit" value="Complete reservation">
+                </label>
+                </td>
+            </tr>
+        </table>
+    </form>
+    </div>
+</body>
+</html>
