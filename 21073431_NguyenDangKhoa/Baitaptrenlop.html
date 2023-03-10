@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px auto;
+        }
+
+        .wrapper {
+            height: 700px;
+            width: 1089px;
+            background-color: antiquewhite;
+            border: 4px solid tomato;
+        }
+
+        header {
+            height: 120px;
+            width: 1089px;
+            background-color: aqua;
+            position: relative;
+        }
+
+        .top-menu li {
+            width: 120px;
+            height: 45px;
+            border-radius: 10px;
+            border: 2px dotted yellowgreen;
+            background-color: blanchedalmond;
+            line-height: 45px;
+            text-indent: 20px;
+            list-style: none;
+            position: absolute;
+            top: 50px;
+            left: 400px;
+        }
+
+        .top-menu li:first-child {
+            top: 50px;
+            left: 380px;
+        }
+
+        .top-menu li:last-child {
+            top: 50px;
+            left: 900px;
+        }
+
+        .top-menu li:nth-child(4) {
+            top: 50px;
+            left: 770px;
+        }
+
+        .top-menu li:nth-child(3) {
+            top: 50px;
+            left: 640px;
+        }
+
+        .top-menu li:nth-child(2) {
+            top: 50px;
+            left: 510px;
+        }
+
+        nav {
+            height: 45px;
+            width: 100%;
+        }
+        .content{
+            height: 400px;
+            width: 100%;
+            background-color: cadetblue;
+        }
+
+        #asl {
+            height: 100%;
+            width: 30%;
+            background-color: darkgreen;
+            float: left;
+        }
+        #asr {
+            height: 100%;
+            width: 30%;
+            background-color: rgb(76, 46, 116);
+            float: left;
+        }
+
+        section {
+            height: 100%;
+            width: 40%;
+            background-color: black;
+            float: left;
+        }
+
+        footer {
+            height: 135px;
+            width: 100%;
+            background-color: coral;
+        }
+        
+        .menu li {
+            width: 120px;
+            height: 45px;
+            background-color: blanchedalmond;
+            float: left;
+            line-height: 45px;
+            text-align: 20px;
+            list-style: none;
+        }
+
+        li a{
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+        }
+
+        .menu li:hover {
+            background-color: blue;
+        }
+
+        li:hover>a {
+            color: yellow;
+            font-style: italic;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>Dau Trang
+            <ul class="top-menu">
+                <li><a href="https://iuh.edu.vn">HOME</a></li>
+                <li><a href="">SERVICES</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">HELP</a></li>
+            </ul>
+        </header>
+        <NAV>
+            <ul class="menu">
+                <li><a href="https://iuh.edu.vn">HOME</a></li>
+                <li><a href="">SERVICES</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">HELP</a></li>
+            </ul>
+        </NAV>
+        <div class="content">
+            <aside id="asl">
+                trai
+            </aside>
+            <section>
+                giữa
+            </section>
+            <aside id="asr">
+                phai
+            </aside>
+        </div>
+        <footer></footer>
+    </div>
+</body>
+</html>
